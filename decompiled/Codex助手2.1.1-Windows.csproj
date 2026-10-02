@@ -1,0 +1,88 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <AssemblyName>Codex助手2.1.1</AssemblyName>
+    <GenerateAssemblyInfo>False</GenerateAssemblyInfo>
+    <OutputType>WinExe</OutputType>
+    <UseWindowsForms>True</UseWindowsForms>
+    <TargetFramework>net8.0-windows7.0</TargetFramework>
+    <PlatformTarget>x64</PlatformTarget>
+  </PropertyGroup>
+  <PropertyGroup>
+    <LangVersion>14.0</LangVersion>
+    <AllowUnsafeBlocks>True</AllowUnsafeBlocks>
+    <CheckForOverflowUnderflow>False</CheckForOverflowUnderflow>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationIcon>app.ico</ApplicationIcon>
+    <RootNamespace />
+  </PropertyGroup>
+  <ItemGroup>
+    <None Remove="CodexLauncherOnline.OfficialAccountQr.jpg" />
+    <None Remove="CodexLauncherOnline20.AppIcon.ico" />
+    <None Remove="CodexLauncherOnline20.ChatGpt.ico" />
+    <EmbeddedResource Include="CodexLauncherOnline.OfficialAccountQr.jpg" LogicalName="CodexLauncherOnline.OfficialAccountQr.jpg" />
+    <EmbeddedResource Include="CodexLauncherOnline20.AppIcon.ico" LogicalName="CodexLauncherOnline20.AppIcon.ico" />
+    <EmbeddedResource Include="CodexLauncherOnline20.ChatGpt.ico" LogicalName="CodexLauncherOnline20.ChatGpt.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <Reference Include="System.Drawing.Common" />
+    <Reference Include="System.Runtime.InteropServices">
+      <HintPath>C:\Program Files\dotnet\shared\Microsoft.NETCore.App\10.0.2\System.Runtime.InteropServices.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Drawing.Primitives">
+      <HintPath>C:\Program Files\dotnet\shared\Microsoft.NETCore.App\10.0.2\System.Drawing.Primitives.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Net.Http">
+      <HintPath>C:\Program Files\dotnet\shared\Microsoft.NETCore.App\10.0.2\System.Net.Http.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Text.Json">
+      <HintPath>C:\Program Files\dotnet\shared\Microsoft.NETCore.App\10.0.2\System.Text.Json.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Text.Encoding.Extensions">
+      <HintPath>C:\Program Files\dotnet\shared\Microsoft.NETCore.App\10.0.2\System.Text.Encoding.Extensions.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Text.RegularExpressions">
+      <HintPath>C:\Program Files\dotnet\shared\Microsoft.NETCore.App\10.0.2\System.Text.RegularExpressions.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Collections">
+      <HintPath>C:\Program Files\dotnet\shared\Microsoft.NETCore.App\10.0.2\System.Collections.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Win32.Registry">
+      <HintPath>C:\Program Files\dotnet\shared\Microsoft.NETCore.App\10.0.2\Microsoft.Win32.Registry.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Diagnostics.Process">
+      <HintPath>C:\Program Files\dotnet\shared\Microsoft.NETCore.App\10.0.2\System.Diagnostics.Process.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Win32.Primitives">
+      <HintPath>C:\Program Files\dotnet\shared\Microsoft.NETCore.App\10.0.2\Microsoft.Win32.Primitives.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Linq">
+      <HintPath>C:\Program Files\dotnet\shared\Microsoft.NETCore.App\10.0.2\System.Linq.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Linq.Expressions">
+      <HintPath>C:\Program Files\dotnet\shared\Microsoft.NETCore.App\10.0.2\System.Linq.Expressions.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Net.WebSockets">
+      <HintPath>C:\Program Files\dotnet\shared\Microsoft.NETCore.App\10.0.2\System.Net.WebSockets.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Net.WebSockets.Client">
+      <HintPath>C:\Program Files\dotnet\shared\Microsoft.NETCore.App\10.0.2\System.Net.WebSockets.Client.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Threading">
+      <HintPath>C:\Program Files\dotnet\shared\Microsoft.NETCore.App\10.0.2\System.Threading.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Windows.Forms.Primitives" />
+    <Reference Include="Microsoft.CSharp">
+      <HintPath>C:\Program Files\dotnet\shared\Microsoft.NETCore.App\10.0.2\Microsoft.CSharp.dll</HintPath>
+    </Reference>
+    <Reference Include="System.ComponentModel.Primitives">
+      <HintPath>C:\Program Files\dotnet\shared\Microsoft.NETCore.App\10.0.2\System.ComponentModel.Primitives.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Security.Cryptography">
+      <HintPath>C:\Program Files\dotnet\shared\Microsoft.NETCore.App\10.0.2\System.Security.Cryptography.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Net.Primitives">
+      <HintPath>C:\Program Files\dotnet\shared\Microsoft.NETCore.App\10.0.2\System.Net.Primitives.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+</Project>
